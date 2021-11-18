@@ -27,6 +27,18 @@
   color: blueviolet;
   cursor: pointer;
 }
+
+.header .btn {
+  background: rgb(204, 85, 194);
+  border-color: rgb(204, 85, 194);
+  border-radius: 38px;
+  padding: 10px;
+  width: 45%;
+}
+.header a:hover {
+  background: rgb(235, 155, 168);
+  border-color: rgb(204, 85, 194);
+}
 .section1 {
   border: 1px solid #ddd;
   display: block;
@@ -46,7 +58,7 @@
 }
 .section1 p {
   font-family: "Open Sans", sans-serif;
-  color: 
+  color: hsl(208, 11%, 55%);
 }
 .section1 .bronze {
   margin: 20px;
@@ -58,17 +70,19 @@
   padding: 50px;
   width: 40%;
   padding-bottom: 10px;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 .section2 button {
   padding-top: 10px;
   display: block;
   margin: 15px auto;
   background: rgb(204, 85, 194);
-  border-radius: 20px;
   border-color: white;
+  border-radius: 38px;
+  padding: 10px;
+  width: 45%;
 }
-.section2 button:hover{
+.section2 button:hover {
   background: rgb(235, 155, 168);
   border-color: white;
 }
@@ -76,4 +90,19 @@
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   text-align: center;
+}
+footer .border {
+  border-radius: 100%;
+  color: white;
+}
+footer {
+  background: hsl(192, 100%, 9%);
+  padding: 120px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+}
+footer .border:hover {
+  color: rgb(235, 155, 168);
 }
