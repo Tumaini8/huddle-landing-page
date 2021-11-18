@@ -66,11 +66,12 @@
 .section2 {
   border: 1px solid #ddd;
   display: block;
-  margin: 70px auto;
+  margin: 80px auto;
   padding: 50px;
   width: 40%;
   padding-bottom: 10px;
   border-radius: 10px;
+  height: 200px;
 }
 .section2 button {
   padding-top: 10px;
@@ -97,7 +98,7 @@ footer .border {
 }
 footer {
   background: hsl(192, 100%, 9%);
-  padding: 120px;
+  padding: 110px;
   color: white;
 }
 footer ul {
@@ -105,4 +106,48 @@ footer ul {
 }
 footer .border:hover {
   color: rgb(235, 155, 168);
+}
+footer .Link {
+  font-size: 10px;
+}
+@media (max-width: 800px) {
+  .header .img-fluid {
+    width: 300px;
+  }
+  .header h2 {
+    font-size: 15px;
+  }
+  .header {
+    height: 430px;
+  }
+
+  .header p {
+    font-size: 12px;
+  }
+  .section1 {
+    padding: 10px;
+    width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .header .img-fluid {
+    width: 200px;
+  }
+  .header {
+    height: 460px;
+    background: hsl(193, 100%, 89%);
+  }
+  .header .btn {
+    padding: 10px;
+    width: 50%;
+    font-size: 15px;
+  }
+  footer ul {
+    display: inline-block;
+  }
+}
+@media (max-width: 1024px) {
+  .section2 {
+    width: 50%;
+  }
 }
